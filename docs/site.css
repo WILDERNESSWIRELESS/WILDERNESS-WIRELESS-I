@@ -44,7 +44,7 @@ p {
 
 a:link {
     text-decoration: none;
-    color: rgba(0,0,0,0.7);
+    color: rgba(255,255,255,0.7);
 }
 
 /* mouse over link */
@@ -53,7 +53,7 @@ a:hover {
 }
 
 a:visited {
-    color: rgba(50,50,50,0.6);
+    color: rgba(100,100,100,0.6);
 }
 
 h1 {
@@ -63,7 +63,6 @@ h1 {
 
 h3 {
     font-family: Sublime-MediumItalic;
-	color: rgba(255,255,255,0.6);
     font-size: 32px;
 	align-content:center
 }
