@@ -44,10 +44,14 @@ https://nodemcu.readthedocs.io/en/master/
 
 ## ESPlorer
 
-#### ESPLorer Homepage
+#### ESPlorer Homepage
 
 http://esp8266.ru/esplorer/
 
 #### Java Runtime Environment
 
 http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+
+## General
+
+http://www.w3schools.com/charsets/ref_html_utf8.asp
