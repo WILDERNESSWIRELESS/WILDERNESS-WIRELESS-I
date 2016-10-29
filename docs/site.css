@@ -3,7 +3,7 @@
 /* CSS Document */
 
 html {
-    
+
     background: url(www.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    
-    color: rgba(0,0,0,0.6);
+
+    color: rgba(255,255,255,0.6);
 }
 
 #outer {
@@ -49,7 +49,7 @@ a:link {
 
 /* mouse over link */
 a:hover {
-    color: rgba(50,50,50,1.0);
+    color: rgba(200,200,200,1.0);
 }
 
 a:visited {
@@ -57,12 +57,12 @@ a:visited {
 }
 
 h1 {
-    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-family: Sublime-MediumItalic;
     font-size: 100px;
 }
 
 h3 {
-    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-family: Sublime-MediumItalic;
 	color: rgba(0,0,0,0.6);
     font-size: 32px;
 	align-content:center
