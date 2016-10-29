@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div {
+    background-image: url("palm2.jpg");
+}
+
+p {
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-weight: bold;
+    font-size: 255px;
+}
