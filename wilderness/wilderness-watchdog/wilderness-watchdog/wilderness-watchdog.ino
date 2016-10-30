@@ -9,12 +9,14 @@
 #include <avr/power.h>    // Power management
 #include <avr/wdt.h>      // Watchdog timer
 
-#define SUP_PIN  0
-#define ADC_PIN  1
-#define RST_PIN  2
-#define WAKE_PIN 3
-#define LED_PIN  4
-#define THRESH 3200
+#define SUP_PIN  1
+#define LED_PIN  2
+#define RST_PIN  3
+#define WAKE_PIN 4
+#define THRESH   3200
+
+//#define ADC_PIN  1
+//#define LED_PIN  4
 
 int f_wdt = 0;
 int adcVal = 0;
@@ -45,7 +47,7 @@ void loop() {
   }
 
 /* Something wrong here. Keeps resetting */
-/* Solved... had to actuall wire it to pin 13 on esp*/
+/* Solved... had to actually wire it to pin 13 on esp :/ */
 /*another problem, though: fet switch won't work at battery voltage*/
 /*
 /*
@@ -94,9 +96,34 @@ ISR(WDT_vect) {
 }
 
 void heartbeat() {
+  
+  // We're alive!
   digitalWrite(LED_PIN, HIGH);
-  delay(50);
+  delay(500);
   digitalWrite(LED_PIN, LOW);
+  
+  // Message Voltage > THRESH
+  
+  if(batteryVoltage > THRESH){
+    for(int i = 0; i < 4; i++){
+      digitalWrite(LED_PIN, HIGH);
+      delay(100);
+      digitalWrite(LED_PIN, LOW);
+      delay(50);
+    }
+  }
+  
+  // Message Voltage < THRESH
+  
+  if(batteryVoltage < THRESH){
+    for(int i = 0; i < 2; i++){
+      digitalWrite(LED_PIN, HIGH);
+      delay(500);
+      digitalWrite(LED_PIN, LOW);
+      delay(500);
+    }
+  }
+  
 }
 
 long readVcc() {
