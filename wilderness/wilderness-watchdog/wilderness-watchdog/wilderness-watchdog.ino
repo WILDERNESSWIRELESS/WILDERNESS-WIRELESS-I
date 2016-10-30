@@ -19,11 +19,7 @@
 //#define LED_PIN  4
 
 int f_wdt = 0;
-int adcVal = 0;
 long batteryVoltage = 0;
-int transition = 0;
-int oldValue = 0;
-int newValue = 0;
 int serverUp = 0;
 
 void setup() {
@@ -41,6 +37,7 @@ void loop() {
   wdt_reset();
   batteryVoltage = readVcc();
   serverUp = digitalRead(SUP_PIN);
+  
   if (batteryVoltage < THRESH ) {
     // Turn OFF FET
     digitalWrite(WAKE_PIN, LOW);
@@ -101,6 +98,7 @@ void heartbeat() {
   digitalWrite(LED_PIN, HIGH);
   delay(500);
   digitalWrite(LED_PIN, LOW);
+  delay(500);
   
   // Message Voltage > THRESH
   
@@ -109,7 +107,7 @@ void heartbeat() {
       digitalWrite(LED_PIN, HIGH);
       delay(100);
       digitalWrite(LED_PIN, LOW);
-      delay(50);
+      delay(100);
     }
   }
   
@@ -118,9 +116,9 @@ void heartbeat() {
   if(batteryVoltage < THRESH){
     for(int i = 0; i < 2; i++){
       digitalWrite(LED_PIN, HIGH);
-      delay(500);
+      delay(200);
       digitalWrite(LED_PIN, LOW);
-      delay(500);
+      delay(200);
     }
   }
   
