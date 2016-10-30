@@ -58,6 +58,8 @@ http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.h
 
 http://www.w3schools.com/charsets/ref_html_utf8.asp
 
+## Inspiration
+
 #### LED Throwies
 
 http://www.graffitiresearchlab.com/blog/projects/led-throwies/
