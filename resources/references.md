@@ -54,4 +54,14 @@ http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.h
 
 ## General
 
+#### UTF-8 Charset
+
 http://www.w3schools.com/charsets/ref_html_utf8.asp
+
+#### LED Throwies
+
+http://www.graffitiresearchlab.com/blog/projects/led-throwies/
+
+#### ESP8266 WiFi Throwies
+
+http://hackaday.com/2015/05/03/esp8266-wifi-throwies/
