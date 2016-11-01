@@ -67,3 +67,21 @@ http://www.graffitiresearchlab.com/blog/projects/led-throwies/
 #### ESP8266 WiFi Throwies
 
 http://hackaday.com/2015/05/03/esp8266-wifi-throwies/
+
+## Wilderness Networks
+
+#### Forestry Communication Tools
+
+http://www.fao.org/forestry/communication-toolkit/en/
+
+#### Internet of Fungus
+
+http://www.bbc.com/earth/story/20141111-plants-have-a-hidden-internet
+
+## Wood Wide web
+
+http://www.newyorker.com/tech/elements/the-secrets-of-the-wood-wide-web
+
+https://en.wikipedia.org/wiki/Mycorrhizal_network
+
+https://rayalaseema360.wordpress.com/2016/01/31/trees-have-their-own-internet-wood-wide-web/
