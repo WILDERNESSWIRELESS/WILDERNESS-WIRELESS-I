@@ -1,8 +1,11 @@
+
+hack tutorial
 orientation: the spirit of the project
 https://en.wikipedia.org/wiki/Mycorrhiza
-it is about chaos
 beacons
 Throwies
+http://www.graffitiresearchlab.com/blog/projects/led-throwies/
+
 aram bartholl dead drops
 https://deaddrops.com/
 

@@ -14,7 +14,7 @@
 #define RST_PIN  2
 #define WAKE_PIN 3
 #define LED_PIN  4
-#define THRESH 3200
+#define THRESH 3000
 
 int f_wdt = 0;
 int adcVal = 0;
