@@ -64,8 +64,13 @@ a:visited {
     color: rgba(100,100,100,0.6);
 }
 
-h1 {
+h1.reg {
     font-family: Sublime;
+    font-size: 100px;
+}
+
+h1.em {
+    font-family: Sublime-MediumItalic;
     font-size: 100px;
 }
 
