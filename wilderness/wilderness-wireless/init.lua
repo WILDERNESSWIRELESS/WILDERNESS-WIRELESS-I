@@ -3,7 +3,8 @@ print("Setting up WiFi AP...")
 
  wifi.setmode(wifi.SOFTAP)
  cfg={}
-     cfg.ssid="↟↟↟↟↟↟↟↟"
+     --cfg.ssid="↟↟↟↟↟↟↟↟"
+     cfg.ssid="wire urs"
      wifi.ap.config(cfg)
 
 print("Done.")
