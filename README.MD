@@ -28,3 +28,12 @@
     * Install Python if you don't have it. Get it [here](https://www.python.org/downloads/)
     * esptool.py is a python program that will help you flash firmware to the Feather. You can find instructions [here](https://github.com/espressif/esptool)
   * Install VCPdrivers for Feather. The Feather uses a Silicon Labs CP2104 USB-Serial converter onboard with 921600 max baudrate for uploading. You must install drivers for this chip before connecting it to your computer and flashing the firmware. Download and install the Virtual Com Port drivers for you operating system [here](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)
+  * Connect Feather to your computer with a micro USB cable.
+  * Locate firmware. The firmware for the Feather is located in the **firmware** folder in this repository. It is easiest to navigate to that folder using your command line terminal. The firmware file is: ```NodeMCU-FW-CaptiveIntraweb.bin``` With Python, esptool.py and VCP drivers now installed, flash the firmware using this command in your terminal:
+  ```
+  esptool.py --port /dev/tty.SLAB_USBtoUART
+    write_flash -fm dio
+    -fs 32m 0x00000
+    NodeMCU-FW-CaptiveIntraweb.bin
+  ```
+  The device you are flashing is usually ```/dev/tty.SLAB_USBtoUART``` on OSX or something like ```COM3``` on Windows. Replace ```/dev/tty.SLAB_USBtoUART``` with the correct port if different.
