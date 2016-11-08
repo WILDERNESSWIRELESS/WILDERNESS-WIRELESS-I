@@ -27,4 +27,4 @@
       * **WIN:** Search for run or run.exe. Type CMD in the run dialog box. The command line terminal should open. Type ``` python --version``` in the terminal. You should see something like ```Python 2.7.10``` returned. If not, skip down to Python installation.
     * Install Python if you don't have it. Get it [here](https://www.python.org/downloads/)
     * esptool.py is a python program that will help you flash firmware to the Feather. You can find instructions [here](https://github.com/espressif/esptool)
-    
+  * Install VCPdrivers for Feather. The Feather uses a Silicon Labs CP2104 USB-Serial converter onboard with 921600 max baudrate for uploading. You must install drivers for this chip before connecting it to your computer and flashing the firmware. Download and install the Virtual Com Port drivers for you operating system [here](https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)
