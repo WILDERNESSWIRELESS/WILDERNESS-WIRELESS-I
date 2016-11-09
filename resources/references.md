@@ -1,5 +1,11 @@
 # References
 
+## Rad Networks WiFi
+
+~~SSID: RadNetz~~
+
+~~PWD: R@@0n3wrks~~
+
 ## github
 
 #### The Wilderness Wireless Repository is here:
@@ -91,3 +97,11 @@ http://www.newyorker.com/tech/elements/the-secrets-of-the-wood-wide-web
 https://en.wikipedia.org/wiki/Mycorrhizal_network
 
 https://rayalaseema360.wordpress.com/2016/01/31/trees-have-their-own-internet-wood-wide-web/
+
+## LED Throwies
+
+http://www.graffitiresearchlab.com/blog/projects/led-throwies/
+
+## Aram Bartholl dead drops
+
+https://deaddrops.com/
